@@ -10,6 +10,7 @@ export const AsideStyled = styled.aside`
 
   && .topCart {
     width: 100%;
+    max-width: 36.5rem;
     background-color: var(--color-primary);
     height: 6.5rem;
     display: flex;
@@ -18,7 +19,9 @@ export const AsideStyled = styled.aside`
   }
 
   && .cartItems {
+    width: 100%;
     background-color: var(--color-grey-0);
+    max-width: 36.5rem;
     height: 15.8rem;
     display: flex;
     flex-direction: column;

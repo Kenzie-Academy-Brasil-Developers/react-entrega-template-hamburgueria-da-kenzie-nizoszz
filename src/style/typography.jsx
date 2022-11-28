@@ -19,6 +19,7 @@ export const StyledTitle = styled(BasedTitle)`
         return css`
           font-size: 1.8rem;
           font-weight: 700;
+          height: 3.6rem;
         `;
       case "heading4":
         return css`
